@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/my-tiny-library/config-server/configs
-          search-paths: '{application}'
+          uri: https://github.com/Esr0g/my-tiny-library.git
+          search-paths: config-server/configs
 
 server:
   port: 8888
